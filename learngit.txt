@@ -1,0 +1,16 @@
+设置账号
+$ git config --global user.name "Your Name"
+$ git config --global user.email "email@example.com"
+
+查看配置信息
+要检查已有的配置信息，可以使用 git config --list 命令：
+$ git config --list
+
+创建
+git init  
+1、$ mkdir dir  dir需要创建的目录
+2、$ cd dir  
+3、$ pwd
+4、$ git init  
+pwd命令用于显示当前目录。
+
