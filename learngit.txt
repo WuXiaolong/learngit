@@ -1,3 +1,7 @@
+安装git
+下载地址：http://msysgit.github.io/
+
+
 设置账号
 $ git config --global user.name "Your Name"
 $ git config --global user.email "email@example.com"
@@ -13,4 +17,24 @@ git init
 3、$ pwd
 4、$ git init  
 pwd命令用于显示当前目录。
+
+把文件添加到版本库
+放到learngit目录下
+第一步，用命令git add告诉Git，把文件添加到仓库：
+$ git add learngit.txt
+第二步，用命令git commit告诉Git，把文件提交到仓库：
+$ git commit -m "wrote a readme file"
+git commit命令，-m后面输入的是本次提交的说明，可以输入任意内容
+
+git status
+可以让我们时刻掌握仓库当前的状态
+
+git diff
+顾名思义就是查看difference
+$ git diff learngit.txt 
+
+git log
+命令显示从最近到最远的提交日志
+如果嫌输出信息太多，看得眼花缭乱的，可以试试加上 --pretty=oneline参数：
+
 
