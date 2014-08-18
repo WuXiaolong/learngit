@@ -1,4 +1,4 @@
-安装git
+﻿安装git
 下载地址：http://msysgit.github.io/
 
 
@@ -59,6 +59,9 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改；
 
 git pull
-从远程（github）拉下来
+从远程（github）更新下来
+
+git clone 
+克隆
 
 
